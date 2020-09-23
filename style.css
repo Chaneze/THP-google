@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+#Header{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+
+}
+
+li{
+    margin: auto 6px;
+    padding: 10px 0;
+    color: grey;
+}
+
+a{
+    text-decoration: blink;
+    color: black;
+}
+
+a:hover{
+    color: grey;
+}
+
+#logoHeader{
+    color: grey;
+}
+
+#logoHeader:hover{
+    color: black;
+    cursor: pointer;
+    
+}
+
+.imgHeader {
+    width: 35px;
+    border-radius: 90px;
+}
+
+/* main */
+
+#logoGoogle{
+    display: flex;
+    justify-content: center;
+}
+
+#socialDiv{
+    margin: 165px -17px 0px -30px;
+}
+
+#socialImg{
+    margin: 0px 22px -10px 0px;
+    cursor: pointer;
+}
+
+#marginDiv{
+    margin: 30px 0 20px 0;
+}
+
+#barreSearch{
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 90px;
+    margin: 15px 450px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;  
+}
+
+
+#barreSearch:hover{
+    box-shadow: 2px 2px 2px 2px gray;
+    
+}
+
+.fas{
+    margin: 15px;
+    color: rgb(190, 190, 190);
+}
+
+#logoSearch{
+    width: 20px;
+    height: 25px;
+    margin: 10px 30px;
+    cursor: pointer;
+}
+
+#textSearch{
+    width: 400px;
+    cursor: text;
+    border: none;
+    outline: none;
+}
+
+
+#button{
+    display: flex;
+    justify-content: center;
+}
+
+.search, .lucky{
+    border: none;
+    margin: 20px 10px;
+    width: 150px;
+    height: 35px;
+    color: rgb(94, 94, 94);
+}
+
+.search:hover, .lucky:hover{
+    border: 1px solid rgb(199, 197, 197);
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+
+#GoogleEnglish{
+    text-align: center;
+}
+
+#english{
+    color: rgb(76, 76, 189);
+}
+
+/* Footer */
+
+#franceFooter{
+    
+    height: 40px;
+    padding-left: 17px;
+}
+
+#franceP{
+    padding: 10px;
+    
+}
+
+#divFin{
+    
+    height: 40px;
+    border-top: 1px solid rgb(163, 163, 163);
+}
+
+
+footer{
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(228, 228, 228);
+}
+
+#navFooter{
+    margin-left: 20px;
+    float: left;
+}
+
+#ulFooter{
+    display: flex;
+    list-style-type: none;
+}
+
+#navFooter2{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#ulFooter2{
+    display: flex;
+    list-style-type: none; 
+}
